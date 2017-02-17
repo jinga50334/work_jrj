@@ -1,7 +1,9 @@
 #!/data/servers/python2.7.8/bin/python
 # -*- coding: UTF-8 -*-
 # writen by yjw
-import redis 
+
+import sys
+import redis
 import socket
 
 try:
