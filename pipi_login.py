@@ -14,10 +14,10 @@ try:
     Num=int(typenum)
     IpAdress=paip.get(Num)
     Passwd=papasswd.get(IpAdress)
-    print ""
+    print("")
     print('Connect to ......')
     print(IpAdress)
-    print ""
+    print("")
     Port=22
     hufu = pexpect.spawn('ssh root@%s -p %s'%(IpAdress,Port))
     hufu.expect('.ssword:')
