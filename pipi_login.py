@@ -9,7 +9,7 @@ try:
     paip={1:'1.1.1.1',2:'2.2.2.2'}
     papasswd={'1.1.1.1':'passwd1','2.2.2.2':'passwd2'}
     for keys,values in paip.items():
-        print keys,values
+        print(keys,values)
     typenum=raw_input("Please input the num which is in front of the IP: ")
     Num=int(typenum)
     IpAdress=paip.get(Num)
